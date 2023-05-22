@@ -1,0 +1,1099 @@
+[ SPRING 0
+{
+                            "Tag": "spring_movie_0",//Little Sapling
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.katarynalk.5}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/message \"{{i18n:movies.katarynalk.6}}\"",
+                                    "Text": ""
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.katarynalk.7}}"
+                                }
+                            },
+                            "ID": "reaction_2"
+                        },
+                        {
+                            "Tag": "spring_movie_0",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.lexi.1}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": "sprout_leave",
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.lexi.2}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.lexi.3}}"
+                                }
+                            },
+                            "ID": "reaction_1"
+                        },
+		
+      {
+        "Tag": "spring_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I'm looking forward to this! Jas and Vincent have been talking about it non-stop."
+          },
+          "DuringMovie": {
+            "ResponsePoint": "sprout_leave",
+            "Script": "/shake Penny 3000/pause 500/message \"Penny seems to be holding back some tears...\"",
+            "Text": "Wow, it must be really hard leaving his family like that...$s"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Thanks for taking me to this, I can't wait to tell the kids how good it was!"
+          }
+        },
+        "ID": "reaction_1"
+      },
+]						
+[ SPRING 1
+                        {
+                            "Tag": "spring_movie_1",//Natural Wonders
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.katarynalk.8}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": ""
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.katarynalk.9}}"
+                                }
+                            },
+                            "ID": "reaction_3"
+                        },
+                        {
+                            "Tag": "spring_movie_1",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.jacob.1}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/message \"{{i18n:movies.jacob.2}}\"",
+                                    "Text": "{{i18n:movies.jacob.3}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.jacob.4}}"
+                                }
+                            },
+                            "ID": "reaction_1"
+                        },
+                        {
+                            "Tag": "spring_movie_1",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.eloise.7}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.eloise.8}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.eloise.9}}"
+                                }
+                            },
+                            "ID": "reaction_3"
+                        },
+                        {
+                            "Tag": "spring_movie_1",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.lexi.4}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.lexi.5}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.lexi.6}}"
+                                }
+                            },
+                            "ID": "reaction_2"
+                        },
+      {
+        "Tag": "spring_movie_1",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I'm excited to 'explore our vibrant world'... aren't you?$h"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I didn't know that!"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "That was really interesting. I liked the raccoons the best... they're so cute!$h"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "spring_movie_1",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I'm nervous about this one... "
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/shake Harvey 3000/pause 500/message \"Harvey is shaking!\"",
+            "Text": "I'm scared!$8"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I have a fear of heights, so those soaring aerial shots really got to me... Still, I had a good time overall.$h"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "spring_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "The governor himself recommended this movie to me!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Fantastic! They really made Stardew Valley look beautiful, didn't they? If only they had featured Pelican Town itself...$h"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "spring_movie_1",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I ate a handful of nuts to prepare for this movie... brain food!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I feel a little bit smarter than I was before... don't you?"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "spring_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hey, @! I'm looking forward to this one... I hope we learn a lot!$h"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/emote Maru 32/playSound reward/message \"Maru's taking notes!\"",
+            "Text": "Ah, I see... that's very interesting!"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "That was really interesting! I had no idea that so much life could be found in the big city."
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "spring_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "This one's right up my alley... you know I'm gonna love this.$h"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/emote Demetrius 8/message Demetrius \"Demetrius is scratching his chin...\"",
+            "Text": "Technically, that's not correct...$3"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Well, they definitely embellished some things, but it was still mostly correct! Anyway, I had a good time."
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "spring_movie_1",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I feel out of place here... I hope I'm not bothering anyone.$s"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/emote Linus 28/message \"Linus is looking at the floor...\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Why stare at a screen when you could experience these things yourself?$s"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "spring_movie_1",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I've heard there's some really beautiful nature footage in this one... I'm really looking forward to it!$h"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "That was great. I'm pretty sure I even saw my cabin in one of those Stardew Valley aerial shots!$h"
+          }
+        },
+        "ID": "reaction_4"
+      },
+]
+[ SUMMER 0
+                        {
+                            "Tag": "summer_movie_0",//Prarie King
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.viviennelk.5}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/message \"{{i18n:movies.viviennelk.6}}\"",
+                                    "Text": ""
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.viviennelk.7}}"
+                                }
+                            },
+                            "ID": "reaction_2"
+                        },
+                        {
+                            "Tag": "summer_movie_0",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.rosa.4}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": ""
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.rosa.5}}"
+                                }
+                            },
+                            "ID": "reaction_2"
+                        },
+      {
+        "Tag": "summer_movie_0",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I can't believe they made a Prairie King movie... I hope it's good!"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Listen... it's got that old familiar music.$h"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Well the acting was awful, but I still had a great time.$h"
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "summer_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I've always loved movies about the wild west, so I'm really excited to see this!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "That was great! It really felt authentic, with the costumes and everything."
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "summer_movie_0",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I watched cowboy movies when I was a kid... I'm glad to see the art is still alive!"
+          },
+          "DuringMovie": {
+            "ResponsePoint": "PK_villain",
+            "Script": "/message \"Mayor Lewis seems deep in thought...\"",
+            "Text": "(I wonder what kind of moustache wax he uses?)"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Heh, that was great! Really brought me back...$h"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "summer_movie_0",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "summer_movie_0",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Buh... Yeah, I guess this might be okay.  ... a snack might help."
+          },
+          "DuringMovie": {
+            "ResponsePoint": "PK_villain",
+            "Script": "",
+            "Text": "I'm rooting for the villain... "
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Okay, I'll admit... I thought it was pretty good."
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "summer_movie_0",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+
+]
+[ SUMMER 1
+                        {
+                            "Tag": "summer_movie_1", //Wumbus
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.katarynalk.10}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/message \"{{i18n:movies.katarynalk.11}}\"",
+                                    "Text": ""
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.katarynalk.12}}"
+                                }
+                            },
+                            "ID": "reaction_4"
+                        },
+                        {
+                            "Tag": "summer_movie_1",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.aideen.3}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/Message \"{{i18n:movies.aideen.4}}\"",
+                                    "Text": ""
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.aideen.5}}"
+                                }
+                            },
+                            "ID": "reaction_2"
+                        },
+                        {
+                            "Tag": "summer_movie_1",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.oliver.4}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": ""
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.oliver.5}}"
+                                }
+                            },
+                            "ID": "reaction_2"
+                        },
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "This one's supposed to be pretty funny, I'm looking forward to it."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hah! I really liked it. But I dunno if I could survive on gluten pucks like that."
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "summer_movie_1",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I saw a commercial for this on the TV. It looks really funny!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "As an amateur connoisseur, the weird obsession with gluten-based food was hilarious.$h"
+          }
+        },
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Oh man, I'm so excited for this! I heard it has a great soundtrack."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/playSound reward/emote Sam 32/message Sam \"Sam can't contain his laughter!\"",
+            "Text": "This movie's hilarious! How do they come up with this stuff?$h"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "... Don't tell anyone, but I wear the same type of socks as Wumbus."
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "summer_movie_1",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "It's a sci-fi movie, right? One of the things I like about sci-fi is seeing all the weird technologies they come up with."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Well, I've never seen anything like  through my telescope... but it was really great!$h"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "This movie supposedly takes place in a 'futuristic' society... it will be interesting to see what that looks like!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Great movie... but I wonder if there really is life beyond this planet?"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+
+]
+[ FALL 0
+      {
+        "Tag": "fall_movie_0",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Psst... Hey, it's me, Krobus. Could you recognize me?$8#$b#If anyone approaches us, you do the talking, okay?$8"
+          },
+          "DuringMovie": {
+            "ResponsePoint": "mysterium_shadow",
+            "Script": "/message \"Krobus is stewing...\"",
+            "Text": "Not all shadow people are like that!$8"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I'm not used to wearing clothes... It's very uncomfortable!$8"
+          }
+        },
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "fall_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I sense an arcane power permeating this building tonight..."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"There's a twinkle in Wizard's eye...\"",
+            "Text": "And to think... the layman has no idea that this is all raw, real footage!"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "For those aware of the esoteric mysteries, that had deep significance..."
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "fall_movie_0",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "They say this movie is 'unconventional'... does that mean it's bad?$s"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "What was the point of that one? I don't get it. Maybe I'm too old.$s"
+          }
+        },
+        "ID": "reaction_3"
+      },
+
+]
+[ FALL 1
+                        {
+                            "Tag": "fall_movie_1",//Howls in the rain
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.viviennelk.10}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/message \"{{i18n:movies.viviennelk.11}}\"",
+                                    "Text": ""
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.viviennelk.12}}"
+                                }
+                            },
+                            "ID": "reaction_4"
+                        },
+                        {
+                            "Tag": "fall_movie_1",//howls in the rain
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.katarynalk.1}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/message \"{{i18n:movies.katarynalk.2}}\"",
+                                    "Text": "{{i18n:movies.katarynalk.3}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.katarynalk.4}}"
+                                }
+                            },
+                            "ID": "reaction_1"
+                        },
+      {
+        "Tag": "fall_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "fall_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "fall_movie_1",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+
+]
+[ WINTER 0
+                        {
+                            "Tag": "winter_movie_0",//Coldstar Ranch
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.viviennelk.8}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": ""
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.viviennelk.9}}"
+                                }
+                            },
+                            "ID": "reaction_3"
+                        },
+      {
+        "Tag": "winter_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "It doesn't feel like the holidays until you've seen '{0}'!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "That was heartwarming... and somehow they make that fabled fruit seem so delicious. I'd love to taste it one day."
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "winter_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "winter_movie_0",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Mmm... It's nice and warm in here. Winter is my favorite time to go to the movies.$h"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I'm glad there was a good ending!"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "winter_movie_0",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I read about this one in the paper... didn't seem like the thing for me. But I'll give it a shot."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Nonsense! That was totally unscientific!$4"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "winter_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+]
+[ WINTER 1
+	                        {
+                            "Tag": "winter_movie_1",//Zuzu Express
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.viviennelk.1}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/message \"{{i18n:movies.viviennelk.2}}\"",
+                                    "Text": "{{i18n:movies.viviennelk.3}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.viviennelk.4}}"
+                                }
+                            },
+                            "ID": "reaction_1"
+                        },
+                        {
+                            "Tag": "winter_movie_1",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.jacob.10}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/message \"{{i18n:movies.jacob.11}}\"",
+                                    "Text": ""
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.jacob.12}}"
+                                }
+                            },
+                            "ID": "reaction_4"
+                        },
+                        {
+                            "Tag": "winter_movie_1",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.aideen.6}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/Message \"{{i18n:movies.aideen.7}}\"",
+                                    "Text": ""
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.aideen.8}}"
+                                }
+                            },
+                            "ID": "reaction_3"
+                        },
+                        {
+                            "Tag": "winter_movie_1",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.josephine.6}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/message \"{{i18n:movies.josephine.7}}\"",
+                                    "Text": ""
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.josephine.8}}"
+                                }
+                            },
+                            "ID": "reaction_3"
+                        },	
+      {
+        "Tag": "winter_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "winter_movie_1",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "This movie's supposed to be a romance, right? $s"
+          },
+          "DuringMovie": {
+            "ResponsePoint": "guyEnters",
+            "Script": "/emote Clint 12/message \"Clint is scowling.\"",
+            "Text": "Why would she like THAT guy? Totally unrealistic if you ask me...$3"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "That movie was depressing...$s"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "winter_movie_1",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Mmm... It's nice and warm in here. Winter is my favorite time to go to the movies.$h"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "That was very romantic."
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "winter_movie_1",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "A short jaunt in the snow really gets the blood flowing."
+          },
+          "DuringMovie": {
+            "ResponsePoint": "zuzucityexpress_mind_heart",
+            "Script": "/message \"Demetrius is furrowing his brow.\"",
+            "Text": "Longings of the heart...? Oh! You mean 'elevated levels of oxytocin in the limbic system'."
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "The art of film has come a long way since those times, hasn't it?"
+          }
+        },
+        "ID": "reaction_0"
+      },
+
+]						
+
+"Script": "/message \"{{i18n:movies.katarynalk.6}}\"",
+"Script": "/shake Penny 3000/pause 500/message \"Penny seems to be holding back some tears...\"",
+"Script": "/shake Harvey 3000/pause 500/message \"Harvey is shaking!\"",
+"Script": "/emote Maru 32/playSound reward/message \"Maru's taking notes!\"",
+"Script": "/emote Demetrius 8/message Demetrius \"Demetrius is scratching his chin...\"",
+"Script": "/emote Linus 28/message \"Linus is looking at the floor...\"",
+"Script": "/message \"Mayor Lewis seems deep in thought...\"",
+"Script": "/playSound reward/emote Sam 32/message Sam \"Sam can't contain his laughter!\"",
+"Script": "/emote Clint 12/message \"Clint is scowling.\"",

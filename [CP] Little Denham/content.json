@@ -1,0 +1,154 @@
+{
+    "Format": "1.29.0",
+	"CustomLocations":
+	[
+
+		{
+            "Name": "Custom_LDAnxious",
+            "FromMapFile": "assets/Locations/Interiors/LDAnxious.tmx"
+		},
+
+		{
+            "Name": "Custom_LDBusLink",
+            "FromMapFile": "assets/Locations/Outdoors/LDBusLink.tmx"
+		},
+
+		{
+            "Name": "Custom_LDCabin",
+            "FromMapFile": "assets/Locations/Interiors/LDCabin.tmx"
+		},
+
+		{
+			"Name": "Custom_LDCoop1",
+			"FromMapFile": "assets/Locations/Interiors/LDCoop1.tmx"
+		},
+
+		{
+			"Name": "Custom_LDCoop2",
+			"FromMapFile": "assets/Locations/Interiors/LDCoop2.tmx"
+		},
+
+		{
+            "Name": "Custom_LDExterior",
+            "FromMapFile": "assets/Locations/Outdoors/LDExterior.tmx"
+        },
+
+		{
+            "Name": "Custom_LDFarm",
+            "FromMapFile": "assets/Locations/Outdoors/LDFarm.tmx"
+		},
+
+		{
+			"Name": "Custom_LDFlat2A",
+			"FromMapFile": "assets/Locations/Interiors/LDFlat2A.tmx"
+		},
+
+		{
+			"Name": "Custom_LDFlat2ARepaired",
+			"FromMapFile": "assets/Locations/Interiors/LDFlat2ARepaired.tmx"
+		},
+
+		{
+			"Name": "Custom_LDFlat2B",
+			"FromMapFile": "assets/Locations/Interiors/LDFlat2B.tmx"
+		},
+
+		{
+			"Name": "Custom_LDFlat2C",
+			"FromMapFile": "assets/Locations/Interiors/LDFlat2C.tmx"
+		},
+
+		{
+			"Name": "Custom_LDFlat2D",
+			"FromMapFile": "assets/Locations/Interiors/LDFlat2D.tmx"
+		},
+
+		{
+			"Name": "Custom_LDFlat2E",
+			"FromMapFile": "assets/Locations/Interiors/LDFlat2E.tmx"
+		},
+
+		{
+			"Name": "Custom_LDFlat2F",
+			"FromMapFile": "assets/Locations/Interiors/LDFlat2F.tmx"
+		},
+
+		{
+            "Name": "Custom_LDHighway",
+            "FromMapFile": "assets/Locations/Outdoors/LDHighway.tmx"
+		},
+
+		{
+            "Name": "Custom_LDHighwayLink",
+            "FromMapFile": "assets/Locations/Outdoors/LDHighwayLink.tmx"
+		},
+
+		{
+            "Name": "Custom_LDHouse",
+            "FromMapFile": "assets/Locations/Interiors/LDHouse.tmx"
+		},
+
+		{
+            "Name": "Custom_LDJoja",
+            "FromMapFile": "assets/Locations/Interiors/LDJoja.tmx"
+		},
+
+		{
+            "Name": "Custom_LDLobby",
+            "FromMapFile": "assets/Locations/Interiors/LDLobby.tmx"
+		},
+
+		{
+            "Name": "Custom_LDSewer",
+            "FromMapFile": "assets/Locations/Interiors/LDSewer.tmx"
+		},
+
+		{
+			"Name": "Custom_LDTreatmentRoom",
+			"FromMapFile": "assets/Locations/Interiors/LDTreatmentRoom.tmx"
+		}
+
+    ],
+
+	"Changes":
+	[
+
+		{
+			"LogName": "LD Main Include",
+			"Action": "Include",
+			"FromFile": "assets/Data/MapPatches.json, assets/Data/NPCDispositions.json, assets/Data/NPCGiftTastes.json, assets/Data/NPCExclusions.json, assets/Data/NPCAntiSocial.json, assets/Data/MailData.json, assets/Data/LocationMessages.json, assets/Data/FishForageArtifacts.json"
+		},
+
+		//to add: "assets/Data/Events/Events.json, assets/Data/Festivals/Festivals.json, assets/Data/NPCMovieData.json"
+
+		{
+			"LogName": "LD Tilesheet Loads",
+			"Action": "Load",
+			"Target": "Maps/ld_furniture, Maps/ld_indoors, Maps/ld_outdoors, Maps/ld_mine",
+			"FromFile": "assets/Tilesheets/{{TargetWithoutPath}}.png",
+		},
+
+		{
+			"LogName": "LD Letter Background Load",
+			"Action": "Load",
+			"Target": "Mods/ASLane.LittleDenham.CP/LetterBGJoja",
+			"FromFile": "assets/Images/{{TargetWithoutPath}}.png"
+		},
+
+		{
+			"LogName": "LD NPC Portraits and Sprites Load",
+			"Action": "Load",
+			"Target": "Portraits/AnxiousLD, Characters/AnxiousLD, Portraits/DestinyLD, Characters/DestinyLD, Portraits/ElizabethLD, Characters/ElizabethLD, Portraits/JaneLD, Characters/JaneLD, Portraits/JosephLD, Characters/JosephLD, Portraits/LeonardLD, Characters/LeonardLD, Portraits/MichelleLD, Characters/MichelleLD, Portraits/SimonLD, Characters/SimonLD, Portraits/StevenLD, Characters/StevenLD",
+			"FromFile": "assets/{{Target}}.png"
+		},
+
+		{
+			"LogName": "LD NPC Dialogue and Schedules Load",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/AnxiousLD, Characters/Schedules/AnxiousLD, Characters/Dialogue/DestinyLD, Characters/Schedules/DestinyLD, Characters/Dialogue/ElizabethLD, Characters/Schedules/ElizabethLD, Characters/Dialogue/JaneLD, Characters/Schedules/JaneLD, Characters/Dialogue/JosephLD, Characters/Schedules/JosephLD, Characters/Dialogue/LeonardLD, Characters/Schedules/LeonardLD, Characters/Dialogue/MichelleLD, Characters/Schedules/MichelleLD, Characters/Dialogue/SimonLD, Characters/Schedules/SimonLD, Characters/Dialogue/StevenLD, Characters/Schedules/StevenLD",
+			"FromFile": "assets/{{Target}}.json"
+		}
+
+	]
+
+}

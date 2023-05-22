@@ -1,0 +1,41 @@
+{
+	"Changes":
+	[
+	
+//FISH AND ARTIFACTS
+//"MapName": "SpringForage/SummerForage/FallForage/WinterForage/FishSpring/FishSummer/FishFall/FishWinter/Artifact"
+
+		{
+			"LogName": "LD Location Data",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries":
+				{
+					//Done
+					"Custom_LDAnxious": "-1/-1/-1/-1/-1/-1/-1/-1/-1",
+					"Custom_LDCabin": "-1/-1/-1/-1/-1/-1/-1/-1/-1",
+					"Custom_LDCoop1": "-1/-1/-1/-1/-1/-1/-1/-1/-1",
+					"Custom_LDCoop2": "-1/-1/-1/-1/-1/-1/-1/-1/-1",
+					"Custom_LDFlat2ARepaired": "-1/-1/-1/-1/-1/-1/-1/-1/-1",
+					"Custom_LDFlat2B": "-1/-1/-1/-1/-1/-1/-1/-1/-1",
+					"Custom_LDFlat2C": "-1/-1/-1/-1/-1/-1/-1/-1/-1",
+					"Custom_LDFlat2D": "-1/-1/-1/-1/-1/-1/-1/-1/-1",
+					"Custom_LDFlat2E": "-1/-1/-1/-1/-1/-1/-1/-1/-1",
+					"Custom_LDFlat2F": "-1/-1/-1/-1/-1/-1/-1/-1/-1",
+					"Custom_LDHouse": "-1/-1/-1/-1/-1/-1/-1/-1/-1",
+					"Custom_LDJoja": "-1/-1/-1/-1/-1/-1/-1/-1/-1",
+					"Custom_LDLobby": "-1/-1/-1/-1/-1/-1/-1/-1/-1",
+					"Custom_LDSewer": "-1/-1/-1/-1/136 -1 142 -1 153 -1 702 -1 700 -1 157 -1/136 -1 142 -1 153 -1 138 -1 702 -1 700 -1 698 -1 157 -1/136 -1 140 -1 142 -1 153 -1 702 -1 700 -1 269 -1 157 -1/136 -1 140 -1 141 -1 153 -1 707 -1 702 -1 700 -1 698 -1 269 -1 142 -1 157 -1/-1",
+					"Custom_LDTreatmentRoom": "-1/-1/-1/-1/-1/-1/-1/-1/-1",
+
+					//Not Done
+					"Custom_LDBusLink": "-1/-1/-1/-1/-1/-1/-1/-1/-1",
+					"Custom_LDExterior": "-1/-1/-1/-1/-1/-1/-1/-1/-1",
+					"Custom_LDFarm": "-1/-1/-1/-1/-1/-1/-1/-1/-1",
+					"Custom_LDFlat2A": "-1/-1/-1/-1/-1/-1/-1/-1/-1",
+					"Custom_LDHighway": "-1/-1/-1/-1/-1/-1/-1/-1/-1",
+					"Custom_LDHighwayLink": "-1/-1/-1/-1/-1/-1/-1/-1/-1"
+				}
+		}
+	]
+}

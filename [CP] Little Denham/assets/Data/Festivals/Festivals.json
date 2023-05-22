@@ -1,0 +1,10 @@
+{
+    "Changes":
+	[
+		{
+			"LogName": "LD Festival Include",
+			"Action": "Include",
+			"FromFile": "assets/Data/Festivals/AnxiousLD.json, assets/Data/Festivals/DestinyLD.json, assets/Data/Festivals/ElizabethLD.json, assets/Data/Festivals/JaneLD.json, assets/Data/Festivals/JosephLD.json, assets/Data/Festivals/LeonardLD.json, assets/Data/Festivals/MichelleLD.json, assets/Data/Festivals/SimonLD.json, assets/Data/Festivals/StevenLD.json"
+		}
+	]
+}

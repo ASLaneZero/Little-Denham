@@ -1,0 +1,12 @@
+﻿{
+  "Name": "[CC] Little Denham",
+  "Author": "ASLaneZero",
+  "Version": "0.1.2",
+  "Description": "Adds Chickens to the coops on Goldenfield Farm.",
+  "UniqueID": "ASLaneZero.LittleDenham.CC",
+  "UpdateKeys": [ "Nexus:16081" ],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.CustomCompanions",
+    "MinimumVersion": "3.0.0"
+  }
+}

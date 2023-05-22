@@ -1,0 +1,42 @@
+{
+	"Changes":
+	[
+		{
+			"LogName": "LD AntiSocial Joseph",
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries":
+				{
+					"JosephLD": true
+				}
+		},
+		
+		{
+			"LogName": "LD AntiSocial Anxious",
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries":
+				{
+					"AnxiousLD": true
+				},
+			"When": 
+				{
+					"HasSeenEvent |contains=1608100600, 1608100601": false
+				}
+		},
+
+		{
+			"LogName": "LD AntiSocial Leonard",
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries":
+				{
+					"LeonardLD": true
+				},
+			"When": 
+				{
+					"HasSeenEvent |contains=1608100240": false
+				}
+		}
+	]
+}

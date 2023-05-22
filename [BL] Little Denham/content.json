@@ -1,0 +1,9 @@
+{
+	"mapname":"Custom_LDHighway",
+	"displayname":"Goldenfield Farm",
+	"localizedNameID": "bus.LDHighway",
+	"destinationX":35,
+	"destinationY":16,
+	"arrivalFacing":2,
+	"ticketPrice":500
+}

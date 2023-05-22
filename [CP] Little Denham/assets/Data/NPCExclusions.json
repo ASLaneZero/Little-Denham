@@ -1,0 +1,43 @@
+{
+	"Changes":
+	[
+		{
+			"LogName": "LD NPC Exclusions",
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries":
+					{
+						"AnxiousLD": "IslandVisit,TownQuest,WinterStar,ShopDialog,MovieInvite",
+						"JosephLD": "All"
+					}
+		},
+		
+		{
+			"LogName": "LD Anxious Exclusions",
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries":
+					{
+						"AnxiousLD": "All"
+					},
+			"When": 
+				{
+					"HasSeenEvent |contains=1608100600, 1608100601": false
+				}
+		},
+
+		{
+			"LogName": "LD Leonard Exclusions",
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries":
+					{
+						"LeonardLD": "All"
+					},
+			"When": 
+				{
+					"HasSeenEvent |contains=1608100240": false
+				}
+		}
+	]
+}

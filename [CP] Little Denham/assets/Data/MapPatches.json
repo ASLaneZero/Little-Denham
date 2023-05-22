@@ -1,0 +1,803 @@
+{
+	"Changes":
+	[
+	
+		{
+			"LogName": "LD Town Patch",
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "FromFile": "assets/Locations/Patches/LDTownPatch.tmx",
+            "ToArea": 
+				{
+					"X": 0,
+					"Y": 67,
+					"Width": 7,
+					"Height": 9
+				},
+            "TextOperations":
+			[
+                {
+                    "Operation": "Append",
+                    "Target":
+						[
+							"MapProperties",
+							"Warp"
+						],
+                    "Value": "-1 73 Custom_LDExterior 39 14 -1 74 Custom_LDExterior 39 15",
+                    "Delimiter": " "
+                }
+            ]
+        },
+
+		{
+			"LogName": "LD Cindersnap Circle Patches",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_LDExterior",
+			"When":
+				{ 
+					"HasMod | contains=k80chimaera.CinderCircle": true
+				},
+            "FromFile": "assets/Locations/Patches/LDCirclePatchA.tmx",
+            "ToArea":
+				{
+					"X": 0,
+					"Y": 12,
+					"Width": 2,
+					"Height": 7
+				},
+            "TextOperations":
+			[
+                {
+                    "Operation": "Append",
+                    "Target":
+						[
+							"MapProperties",
+							"Warp"
+						],
+                    "Value": "-1 13 Custom_Cinder_CindersnapCircle 29 15 -1 14 Custom_Cinder_CindersnapCircle 29 16 -1 15 Custom_Cinder_CindersnapCircle 29 17 -1 16 Custom_Cinder_CindersnapCircle 29 18 -1 17 Custom_Cinder_CindersnapCircle 29 19",
+                    "Delimiter": " "
+                }
+            ]
+        },
+
+		{
+			"LogName": "LD Cindersnap Circle Patches",
+			"Action": "EditMap",
+            "Target": "Maps/Custom_Cinder_CindersnapCircle",
+			"When":
+				{
+					"HasMod | contains=k80chimaera.CinderCircle": true
+				},
+            "FromFile": "assets/Locations/Patches/LDCirclePatchB.tmx",
+            "ToArea":
+				{
+					"X": 26,
+					"Y": 14,
+					"Width": 4,
+					"Height": 7
+				},
+            "TextOperations":
+			[
+                {
+                    "Operation": "Append",
+                    "Target":
+						[
+							"MapProperties",
+							"Warp"
+						],
+                    "Value": "30 15 Custom_LDExterior 0 13 30 16 Custom_LDExterior 0 14 30 17 Custom_LDExterior 0 15 30 18 Custom_LDExterior 0 16 30 19 Custom_LDExterior 0 17",
+                    "Delimiter": " "
+                }
+            ]
+        },
+		
+		{
+			"LogName": "LD Stray Catfe Patches",
+			"Action": "EditMap",
+            "Target": "Maps/Custom_LDExterior",
+			"When":
+				{ 
+					"HasMod | contains=ch20youk.TSCCP": true
+				},
+            "FromFile": "assets/Locations/Patches/LDStrayPatchA.tmx",
+            "ToArea":
+				{
+					"X": 28,
+					"Y": 0,
+					"Width": 5,
+					"Height": 3
+				},
+            "TextOperations":
+			[
+                {
+                    "Operation": "Append",
+                    "Target":
+						[
+							"MapProperties",
+							"Warp"
+						],
+                    "Value": "30 -1 Custom_StrayCatfe_CafeOutdoors 15 19 31 -1 Custom_StrayCatfe_CafeOutdoors 16 19",
+                    "Delimiter": " "
+                }
+            ]
+        },
+
+		{
+			"LogName": "LD Stray Catfe Patches",
+			"Action": "EditMap",
+            "Target": "Maps/Custom_StrayCatfe_CafeOutdoors",
+			"When":
+				{
+					"HasMod | contains=ch20youk.TSCCP": true
+				},
+            "FromFile": "assets/Locations/Patches/LDStrayPatchB.tmx",
+            "ToArea":
+				{
+					"X": 13,
+					"Y": 17,
+					"Width": 5,
+					"Height": 3
+				},
+            "TextOperations":
+			[
+                {
+                    "Operation": "Append",
+                    "Target":
+						[
+							"MapProperties",
+							"Warp"
+						],
+                    "Value": "15 20 Custom_LDExterior 30 0 16 20 Custom_LDExterior 31 0",
+                    "Delimiter": " "
+                }
+            ]
+        },
+
+		{
+			"LogName": "LD Joja Letting Boxes Patch",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_LDJoja",
+            "FromFile": "assets/Locations/Patches/LDJojaBoxesPatch.tmx",
+            "ToArea":
+				{
+					"X": 17,
+					"Y": 1,
+					"Width": 5,
+					"Height": 8
+				},
+			"When":
+				{
+					"HasSeenEvent |contains=1608114": false
+				},
+			"Update": "OnLocationChange"
+		},
+		
+		{
+			"LogName": "LD Anxious Boxes Patch",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_LDAnxious",
+            "FromFile": "assets/Locations/Patches/LDAnxiousBoxesPatch.tmx",
+            "ToArea":
+				{
+					"X": 1,
+					"Y": 6,
+					"Width": 2,
+					"Height": 1
+				},
+			"When":
+				{
+					"HasSeenEvent |contains=1608114": false
+				},
+			"Update": "OnLocationChange"
+		},
+		
+		{
+			"LogName": "LD Joja Pre Anxious Patch",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_LDJoja",
+            "FromFile": "assets/Locations/Patches/LDJojaNoAnxiousPatch.tmx",
+            "ToArea":
+				{
+					"X": 21,
+					"Y": 4,
+					"Width": 1,
+					"Height": 1
+				},
+			"When":
+				{
+					"HasSeenEvent |contains=1608114": true,
+					"HasSeenEvent |contains=1608115": true,
+					"HasSeenEvent |contains=1608120, 1608126, 1608127": false
+				},
+			"Update": "OnLocationChange"
+		},
+		
+		{
+			"LogName": "LD Exterior Pre Anxious Patch",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_LDExterior",
+            "FromFile": "assets/Locations/Patches/LDExteriorSewerPatch.tmx",
+            "ToArea":
+				{
+					"X": 35,
+					"Y": 9,
+					"Width": 1,
+					"Height": 1
+				},
+			"When":
+				{
+					"HasSeenEvent |contains=1608120, 1608126, 1608127": false
+				},
+			"Update": "OnLocationChange"
+		},
+
+		{
+			"LogName": "LD Joja Letting Abandonned Patches",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_LDJoja",
+            "FromFile": "assets/Locations/Patches/LDJojaAbandonnedPatch.tmx",
+            "ToArea":
+				{
+					"X": 1,
+					"Y": 1,
+					"Width": 21,
+					"Height": 12
+				},
+			"When":
+				{
+					"HasSeenEvent |contains=1608160": true
+				},
+			"Update": "OnLocationChange"
+		},
+		
+		{
+			"LogName": "LD Joja Letting Abandonned Patches",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_LDExterior",
+            "FromFile": "assets/Locations/Patches/LDExteriorJojaAbandonnedPatch.tmx",
+            "ToArea":
+				{
+					"X": 27,
+					"Y": 6,
+					"Width": 8,
+					"Height": 8
+				},
+			"When":
+				{
+					"HasSeenEvent |contains=1608160": true
+				},
+			"Update": "OnLocationChange"
+		},
+
+		{
+			"LogName": "LD Little Denham Cleaned Patch",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_LDExterior",
+            "FromFile": "assets/Locations/Patches/LDExteriorCleanedPatch.tmx",
+            "ToArea":
+				{
+					"X": 3,
+					"Y": 2,
+					"Width": 22,
+					"Height": 15
+				},
+			"When":
+				{
+					"HasSeenEvent |contains=1608139": true
+				},
+			"Update": "OnLocationChange"
+		},
+		
+		{
+			"LogName": "LD Little Denham Lobby Early Access Patch",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_LDLobby",
+            "FromFile": "assets/Locations/Patches/LDLobbyEarlyPatch.tmx",
+            "ToArea":
+				{
+					"X": 5,
+					"Y": 9,
+					"Width": 1,
+					"Height": 1
+				},
+			"When":
+				{
+					"HasSeenEvent |contains=1608101": false
+				},
+			"Update": "OnLocationChange"
+		},
+
+		{
+			"LogName": "LD Little Denham Lobby Cleaned Patch",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_LDLobby",
+            "FromFile": "assets/Locations/Patches/LDLobbyCleanedPatch.tmx",
+            "ToArea":
+				{
+					"X": 2,
+					"Y": 1,
+					"Width": 17,
+					"Height": 18
+				},
+			"When":
+				{
+					"HasSeenEvent |contains=1608151": true
+				},
+			"Update": "OnLocationChange"
+		},
+
+		{
+			"LogName": "LD Vanilla Forest Patch",
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+			"When":
+				{
+					"HasMod | contains=flashshifter.GrandpasFarm": false,
+					"HasMod | contains=FlashShifter.StardewValleyExpandedCP": false
+				},
+            "FromFile": "assets/Locations/Patches/LDForestVanillaPatch.tmx",
+            "ToArea":
+				{
+					"X": 105,
+					"Y": 0,
+					"Width": 15,
+					"Height": 26
+				},
+            "TextOperations":
+			[
+                {
+                    "Operation": "Append",
+                    "Target":
+						[
+							"MapProperties",
+							"Warp"
+						],
+                    "Value": "117 16 Custom_LDExterior 3 27 118 16 Custom_LDExterior 4 27",
+                    "Delimiter": " "
+                }
+            ]
+        },
+		
+		{
+			"LogName": "LD Vanilla Forest Warps",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_LDExterior",
+			"When":
+				{
+					"HasMod | contains=flashshifter.GrandpasFarm": false,
+					"HasMod | contains=FlashShifter.StardewValleyExpandedCP": false
+				},
+			"AddWarps":
+				[
+					"3 28 Forest 117 17",
+					"4 28 Forest 118 17"
+				]
+		},
+
+		{
+			"LogName": "LD SVE/Grandpa's Farm Forest Patch",
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+			"When":
+				{
+					"HasMod": "flashshifter.GrandpasFarm, FlashShifter.StardewValleyExpandedCP"
+				},
+            "FromFile": "assets/Locations/Patches/LDForestSVEPatch.tmx",
+            "ToArea":
+				{
+					"X": 105,
+					"Y": 0,
+					"Width": 15,
+					"Height": 26
+				},
+            "TextOperations":
+			[
+                {
+                    "Operation": "Append",
+                    "Target":
+						[
+							"MapProperties",
+							"Warp"
+						],
+                    "Value": "117 2 Custom_LDExterior 3 27 118 2 Custom_LDExterior 4 27",
+                    "Delimiter": " "
+                }
+            ]
+        },
+		
+		{
+			"LogName": "LD SVE/Grandpa's Farm Forest Warps",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_LDExterior",
+			"When":
+				{
+					"HasMod": "flashshifter.GrandpasFarm, FlashShifter.StardewValleyExpandedCP"
+				},
+			"AddWarps":
+				[
+					"3 28 Forest 117 3",
+					"4 28 Forest 118 3"
+				]
+		},
+		
+		{
+			"LogName": "LD SVE Joja Route Forest Patch",
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+			"When":
+				{
+					"HasMod | contains=FlashShifter.StardewValleyExpandedCP": true,
+					"HasSeenEvent": "5553210"
+				},
+            "FromFile": "assets/Locations/Patches/LDForestJojaPatch.tmx",
+            "ToArea":
+				{
+					"X": 105,
+					"Y": 0,
+					"Width": 15,
+					"Height": 26
+				},
+            "TextOperations":
+			[
+                {
+                    "Operation": "Append",
+                    "Target":
+						[
+							"MapProperties",
+							"Warp"
+						],
+                    "Value": "117 2 Custom_LDExterior 3 27 118 2 Custom_LDExterior 4 27",
+                    "Delimiter": " "
+                }
+            ]
+        },
+		
+		{
+			"LogName": "LD SVE Joja Route Forest Warps",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_LDExterior",
+			"When":
+				{
+					"HasMod | contains=FlashShifter.StardewValleyExpandedCP": true,
+					"HasSeenEvent": "5553210"
+				},
+			"AddWarps":
+				[
+					"3 28 Forest 117 3",
+					"4 28 Forest 118 3"
+				]
+		},
+
+		{
+			"LogName": "LD Vanilla Clinic Patch",
+            "Action": "EditMap",
+            "Target": "Maps/Hospital",
+			"When":
+				{
+					"HasMod | contains=FlashShifter.StardewValleyExpandedCP": false
+				},
+            "FromFile": "assets/Locations/Patches/LDHospitalVanilla.tmx",
+            "ToArea": 
+				{
+					"X": 12,
+					"Y": 11,
+					"Width": 3,
+					"Height": 3
+				},
+        },
+
+		{
+			"LogName": "LD SVE Clinic Patch",
+            "Action": "EditMap",
+            "Target": "Maps/Hospital",
+			"When":
+				{
+					"HasMod | contains=FlashShifter.StardewValleyExpandedCP": true
+				},
+            "FromFile": "assets/Locations/Patches/LDHospitalSVE.tmx",
+            "ToArea": 
+				{
+					"X": 12,
+					"Y": 11,
+					"Width": 3,
+					"Height": 3
+				},
+        },
+
+		{
+			"LogName": "LD Vanilla Bus Stop Warps",
+			"Action": "EditMap",
+            "Target": "Maps/BusStop",
+			"When":
+				{
+					"HasMod | contains=TheLimeyDragon.Ayeisha": false,
+					"HasMod | contains=MineralTownArchitects.MineralTown": false
+				},
+			"AddWarps":
+				[
+					"33 6 Custom_LDBusLink 0 17",
+					"33 7 Custom_LDBusLink 0 18",
+					"33 8 Custom_LDBusLink 0 19",
+					"33 9 Custom_LDBusLink 0 20",
+					"33 10 Custom_LDBusLink 0 21"
+				]
+		},
+
+		{
+			"LogName": "LD Vanilla Bus Link Warps",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_LDBusLink",
+			"When":
+				{
+					"HasMod | contains=TheLimeyDragon.Ayeisha": false,
+					"HasMod | contains=MineralTownArchitects.MineralTown": false
+				},
+			"AddWarps":
+				[
+					"-1 17 BusStop 32 6",
+					"-1 18 BusStop 32 7",
+					"-1 19 BusStop 32 8",
+					"-1 20 BusStop 32 9",
+					"-1 21 BusStop 32 10"
+				]
+		},
+
+		{
+			"LogName": "LD Ayeisha Van Road Patch",
+			"Action": "EditMap",
+            "Target": "Maps/Custom_AyeishaVanRoad",
+			"When":
+				{
+					"HasMod | contains=TheLimeyDragon.Ayeisha": true,
+					"HasMod | contains=MineralTownArchitects.MineralTown": false
+				},
+            "FromFile": "assets/Locations/Patches/LDAyeishaPatch.tmx",
+            "ToArea":
+				{
+					"X": 10,
+					"Y": 9,
+					"Width": 1,
+					"Height": 5
+				},
+            "TextOperations":
+			[
+                {
+                    "Operation": "Append",
+                    "Target":
+						[
+							"MapProperties",
+							"Warp"
+						],
+                    "Value": "11 9 Custom_LDBusLink 0 17 11 10 Custom_LDBusLink 0 18 11 11 Custom_LDBusLink 0 19 11 12 Custom_LDBusLink 0 20 11 13 Custom_LDBusLink 0 21",
+                    "Delimiter": " "
+                }
+            ]
+        },
+		
+		{
+			"LogName": "LD Ayeisha Bus Link Warps",
+			"Action": "EditMap",
+            "Target": "Maps/Custom_LDBusLink",
+			"When":
+				{
+					"HasMod | contains=TheLimeyDragon.Ayeisha": true,
+					"HasMod | contains=MineralTownArchitects.MineralTown": false
+				},
+			"AddWarps":
+				[
+					"-1 17 Custom_AyeishaVanRoad 10 9",
+					"-1 18 Custom_AyeishaVanRoad 10 10",
+					"-1 19 Custom_AyeishaVanRoad 10 11",
+					"-1 20 Custom_AyeishaVanRoad 10 12",
+					"-1 21 Custom_AyeishaVanRoad 10 13"
+				]
+		},
+
+		{
+			"LogName": "LD No Mineral Town Bus Link Warps",
+			"Action": "EditMap",
+            "Target": "Maps/Custom_LDBusLink",
+			"When":
+				{
+					"HasMod | contains=MineralTownArchitects.MineralTown": false
+				},
+			"AddWarps":
+				[
+					"9 18 Custom_LDHighwayLink 1 19",
+					"9 19 Custom_LDHighwayLink 1 20",
+					"9 20 Custom_LDHighwayLink 1 21"
+				]
+		},
+		
+		{
+			"LogName": "LD Vanilla Highway Link Warps",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_LDHighwayLink",
+			"When":
+				{
+					"HasMod | contains=MineralTownArchitects.MineralTown": false
+				},
+			"AddWarps":
+				[
+					"0 19 Custom_LDBusLink 8 18",
+					"0 20 Custom_LDBusLink 8 19",
+					"0 21 Custom_LDBusLink 8 20",
+					"10 17 Custom_LDHighway 0 17",
+					"10 18 Custom_LDHighway 0 18",
+					"10 19 Custom_LDHighway 0 19",
+					"10 20 Custom_LDHighway 0 20",
+					"10 21 Custom_LDHighway 0 21"
+				]
+		},
+
+		{
+			"LogName": "LD Vanilla Highway Warps",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_LDHighway",
+			"When":
+				{
+					"HasMod | contains=MineralTownArchitects.MineralTown": false
+				},
+			"AddWarps":
+				[
+					"-1 17 Custom_LDHighwayLink 9 17",
+					"-1 18 Custom_LDHighwayLink 9 18",
+					"-1 19 Custom_LDHighwayLink 9 19",
+					"-1 20 Custom_LDHighwayLink 9 20",
+					"-1 21 Custom_LDHighwayLink 9 21"
+				]
+		},
+
+		{
+			"LogName": "LD Mineral Town Highway Patch",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_HM_Highway",
+			"When":
+				{
+					"HasMod | contains=MineralTownArchitects.MineralTown": true
+				},
+            "FromFile": "assets/Locations/Patches/LDMineralTownPatch.tmx",
+            "ToArea":
+				{
+					"X": 88,
+					"Y": 27,
+					"Width": 2,
+					"Height": 8
+				},
+            "TextOperations":
+			[
+                {
+                    "Operation": "Append",
+                    "Target":
+						[
+							"MapProperties",
+							"Warp"
+						],
+                    "Value": "90 27 Custom_LDHighway 0 17 90 28 Custom_LDHighway 0 18 90 29 Custom_LDHighway 0 19 90 30 Custom_LDHighway 0 20 90 31 Custom_LDHighway 0 21",
+                    "Delimiter": " "
+                }
+            ]
+        },
+
+		{
+			"LogName": "LD Mineral Town Highway Warps",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_LDHighway",
+			"When":
+				{
+					"HasMod | contains=MineralTownArchitects.MineralTown": true
+				},
+			"AddWarps":
+				[
+					"-1 17 Custom_HM_Highway 89 27",
+					"-1 18 Custom_HM_Highway 89 28",
+					"-1 19 Custom_HM_Highway 89 29",
+					"-1 20 Custom_HM_Highway 89 30",
+					"-1 21 Custom_HM_Highway 89 31"
+				]
+		},
+
+		{
+			"LogName": "LD Highway No Access Patch",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_LDHighway",
+			"When":
+				{
+					"HasSeenEvent |contains=1608141": false
+				},
+            "FromFile": "assets/Locations/Patches/LDHighwayAccess.tmx",
+            "ToArea":
+				{
+					"X": 34,
+					"Y": 27,
+					"Width": 3,
+					"Height": 1
+				},
+			"Update": "OnLocationChange"
+		},
+
+		{
+			"LogName": "LD Goldenfields Crop Phase 1 Patch",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_LDFarm",
+            "FromFile": "assets/Locations/Patches/LDFarmCropPatch1.tmx",
+            "ToArea":
+				{
+					"X": 4,
+					"Y": 7,
+					"Width": 17,
+					"Height": 15
+				},
+			"PatchMode": "Overlay",
+			"When":
+				{
+					"Season": "summer, fall",
+					"Day": "1, 5, 9, 13, 17, 21, 25"
+				},
+			"Update": "OnTimeChange"
+		},
+
+		{
+			"LogName": "LD Goldenfields Crop Phase 2 Patch",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_LDFarm",
+            "FromFile": "assets/Locations/Patches/LDFarmCropPatch2.tmx",
+            "ToArea":
+				{
+					"X": 4,
+					"Y": 7,
+					"Width": 17,
+					"Height": 15
+				},
+			"PatchMode": "Overlay",
+			"When":
+				{
+					"Season": "summer, fall",
+					"Day": "2, 6, 10, 14, 18, 22, 26"
+				},
+			"Update": "OnTimeChange"
+		},
+
+		{
+			"LogName": "LD Goldenfields Crop Phase 3 Patch",
+			"Action": "EditMap",
+            "Target": "Maps/Custom_LDFarm",
+            "FromFile": "assets/Locations/Patches/LDFarmCropPatch3.tmx",
+            "ToArea":
+				{
+					"X": 4,
+					"Y": 7,
+					"Width": 17,
+					"Height": 15
+				},
+			"PatchMode": "Overlay",
+			"When":
+				{
+					"Season": "summer, fall",
+					"Day": "3, 7, 11, 15, 19, 23, 27"
+				},
+			"Update": "OnTimeChange"
+		},
+
+		{
+			"LogName": "LD Goldenfields Crop Phase 4 Patch",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_LDFarm",
+            "FromFile": "assets/Locations/Patches/LDFarmCropPatch4.tmx",
+            "ToArea":
+				{
+					"X": 4,
+					"Y": 7,
+					"Width": 17,
+					"Height": 15
+				},
+			"PatchMode": "Overlay",
+			"When":
+				{
+					"Season": "summer, fall",
+					"Day": "4, 8, 12, 16, 20, 24, 28"
+				},
+			"Update": "OnTimeChange"
+		}
+	]
+}

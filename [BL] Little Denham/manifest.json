@@ -1,0 +1,12 @@
+{
+   "Name": "[BL] Little Denham",
+   "Author": "ASLaneZero",
+   "Version": "0.1.2",
+   "Description": "Adds a bus stop for Little Denham's Highway map.",
+   "UniqueID": "ASLane.LittleDenham.BL",
+   "MinimumApiVersion": "1.0",
+   "UpdateKeys": [ "Nexus:16081" ],
+   "ContentPackFor": {
+      "UniqueID": "hootless.BusLocations",
+   }
+}

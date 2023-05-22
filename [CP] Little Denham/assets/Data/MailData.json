@@ -1,0 +1,14 @@
+{
+	"Changes":
+	[
+		{
+			"LogName": "LD Mail Data",
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": 
+				{
+					"OpenedFlat2A": "{{i18n:Mail.OpenFlat2A}}[letterbg Mods/ASLane.LittleDenham.CP/LetterBGJoja 0][textcolor black][#]{{i18n:Mail.OpenFlat2A.Title}}",
+				}
+		}
+	]
+}

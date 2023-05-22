@@ -1,0 +1,47 @@
+{
+	"Changes":
+	[
+		{
+			"LogName": "LD NPC Gift Tastes",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries":
+				{
+					"DestinyLD": "{{i18n:Gifts.DestinyLove}}/206 62 595 104 106/{{i18n:Gifts.DestinyLike}}/634 221 428 126 127 413 437 439 680 857/{{i18n:Gifts.DestinyDislike}}/726 205 -5 348 346 303/{{i18n:Gifts.DestinyHate}}/776 -4 446 268 342 419/{{i18n:Gifts.DestinyNeutral}}/614 725 724 636 635/",
+					"ElizabethLD": "{{i18n:Gifts.ElizabethLove}}/224 421 564 91 597/{{i18n:Gifts.ElizabethLike}}/234 306 614 258 394 578 130 565/{{i18n:Gifts.ElizabethDislike}}/-6 424 232 426 243/{{i18n:Gifts.ElizabethHate}}/197 605 233 727 730/{{i18n:Gifts.ElizabethNeutral}}/481 279 139 221 350/",
+					"JaneLD": "{{i18n:Gifts.JaneLove}}/253 395 234 258 232/{{i18n:Gifts.JaneLike}}/614 638 64 348 787 440 349 -74 297/{{i18n:Gifts.JaneDislike}}/88 733 732 436 438/{{i18n:Gifts.JaneHate}}/225 446 274 605 814/{{i18n:Gifts.JaneNeutral}}/433 344 303 286 201/",
+					"MichelleLD": "{{i18n:Gifts.MichelleLove}}/70 591 395 348 220/{{i18n:Gifts.MichelleLike}}/248 772 349 351 802 440/{{i18n:Gifts.MichelleDislike}}/-80 297 250 272 446/{{i18n:Gifts.MichelleHate}}/178 420 404 422 281 257 851/{{i18n:Gifts.MichelleNeutral}}/787 419 330 247 152/",
+					"SimonLD": "{{i18n:Gifts.SimonLove}}/122 210 220 121 109/{{i18n:Gifts.SimonLike}}/606 72 336 335 338 334 -28/{{i18n:Gifts.SimonDislike}}/346 303 348 340 724/{{i18n:Gifts.SimonHate}}/194 300 196 -79 270/{{i18n:Gifts.SimonNeutral}}/539 404 337 275 613/",
+					"StevenLD": "{{i18n:Gifts.StevenLove}}/232 206 139 346 815/{{i18n:Gifts.StevenLike}}/417 787 444 814 399/{{i18n:Gifts.StevenDislike}}/-80 297 250 276 373/{{i18n:Gifts.StevenHate}}/178 -4 403 445 447 -23/{{i18n:Gifts.StevenNeutral}}/614 348 395 167 122/"
+				}
+		},
+		
+		{
+			"LogName": "LD Leonard Gift Tastes",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries":
+				{
+					"LeonardLD": "{{i18n:Gifts.LeonardLove}}/395 211 873 72 113/{{i18n:Gifts.LeonardLike}}/190 215 260 410 483 178 919 920/{{i18n:Gifts.LeonardDislike}}/426 307 432 340 346/{{i18n:Gifts.LeonardHate}}/-4 814 732 812 262/{{i18n:Gifts.LeonardNeutral}}/403 344 178 709 349/",
+				},
+			"When": 
+				{
+					"HasSeenEvent |contains=1608100240": true
+				}
+		},
+
+		{
+			"LogName": "LD Anxious Gift Tastes",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries":
+				{
+					"AnxiousLD": "{{i18n:Gifts.AnxiousLove}}/260 829 16 218 226 879/{{i18n:Gifts.AnxiousLike}}/304 283 772 420 128/{{i18n:Gifts.AnxiousDislike}}/724 340 604 907 -79 -6/{{i18n:Gifts.AnxiousHate}}/776 245 279 233 221 417 223/{{i18n:Gifts.AnxiousNeutral}}/430 412 20 22 403 726/",
+				},
+			"When":
+				{
+					"HasSeenEvent |contains=1608100600, 1608100601": true
+				}
+		}
+	]
+}

@@ -1,0 +1,2303 @@
+{
+	"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Data/ConcessionTastes",
+			"Entries":
+				{
+					"JaneLD":
+						{
+							"Name": "JaneLD",
+							"LovedTags":
+								[
+									"Black Licorice"
+								],
+							"LikedTags":
+								[
+									"Salty",
+									"Hot"
+								],
+							"DislikedTags":
+								[
+									"Drink",
+									"Healthy"
+								]
+						},
+					"StevenLD":
+						{
+							"Name": "StevenLD",
+							"LovedTags":
+								[
+									"Nachos"
+								],
+							"LikedTags":
+								[
+									"Sandwich",
+									"Candy"
+								],
+							"DislikedTags":
+								[
+									"Healthy",
+									"Gourmet"
+								]
+						},
+					"ElizabethLD":
+						{
+							"Name": "ElizabethLD",
+							"LovedTags":
+								[
+									"Star Cookie"
+								],
+							"LikedTags":
+								[
+									"Healthy",
+									"Sandwich"
+								],
+							"DislikedTags":
+								[
+									"Hot",
+									"Sweet"
+								]
+						},
+					"SimonLD":
+						{
+							"Name": "SimonLD",
+							"LovedTags":
+								[
+									"Chocolate Popcorn"
+								],
+							"LikedTags":
+								[
+									"Sweet",
+									"Salty"
+								],
+							"DislikedTags":
+								[
+									"Healthy",
+									"Gourmet"
+								]
+						},
+					"DestinyLD":
+						{
+							"Name": "DestinyLD",
+							"LovedTags":
+								[
+									"Cotton Candy"
+								],
+							"LikedTags":
+								[
+									"Hot",
+									"Sweet"
+								],
+							"DislikedTags":
+								[
+									"Gourmet",
+									"Drink"
+								]
+						},
+					"MichelleLD":
+						{
+							"Name": "MichelleLD",
+							"LovedTags":
+								[
+									"Cappuccino Mousse Cake"
+								],
+							"LikedTags":
+								[
+									"Sweet",
+									"Fatty"
+								],
+							"DislikedTags":
+								[
+									"Gourmet",
+									"Drink"
+								]
+						},
+				},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/ConcessionTastes",
+			"Entries":
+				{
+					"LeonardLD":
+						{
+							"Name": "LeonardLD",
+							"LovedTags":
+								[
+									"Fries"
+								],
+							"LikedTags":
+								[
+									"Fatty",
+									"Sweet"
+								],
+							"DislikedTags":
+								[
+									"Healthy",
+									"Sandwich"
+								]
+						}
+				},
+			"When":
+				{
+					"HasSeenEvent |contains=1608100240": true
+				}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/MoviesReactions",
+			"Entries":
+				{
+					"JaneLD":
+						{
+							"NPCName": "JaneLD",
+							"Reactions":
+							[
+								{
+									"Tag": "seen_love",
+									"Response": "love",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Jane.29}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "/emote JaneLD 32/message \"{{i18n:Movies.Jane.30}}\"",
+													"Text": "",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Jane.31}}",
+												}
+										},
+									"ID": "reaction_8"
+								},
+								{
+									"Tag": "seen_like",
+									"Response": "like",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Jane.32}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Jane.33}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Jane.34}}",
+												}
+										},
+									"ID": "reaction_9"
+								},
+								{
+									"Tag": "seen_dislike",
+									"Response": "dislike",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Jane.35}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "/emote JaneLD 24/message \"{{i18n:Movies.Jane.36}}\"",
+													"Text": "",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Jane.37}}",
+												}
+										},
+									"ID": "reaction_10"
+								},
+								{
+									"Tag": "spring_movie_0",
+									"Response": "like",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Jane.01}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": "sprout_leave",
+													"Script": "{{i18n:Movies.Jane.02}}",
+													"Text": "{{i18n:Movies.Jane.03}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Jane.04}}",
+												}
+										},
+									"ID": "reaction_0"
+								},
+								{
+									"Tag": "spring_movie_1",
+									"Response": "love",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Jane.05}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Jane.06}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Jane.07}}",
+												}
+										},
+									"ID": "reaction_1"
+								},
+								{
+									"Tag": "summer_movie_0",
+									"Response": "dislike",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Jane.08}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": "PK_villain",
+													"Script": "{{i18n:Movies.Jane.09}}",
+													"Text": "{{i18n:Movies.Jane.10}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Jane.11}}",
+												}
+										},
+									"ID": "reaction_2"
+								},
+								{
+									"Tag": "summer_movie_1",
+									"Response": "dislike",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Jane.12}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Jane.13}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Jane.14}}",
+												}
+										},
+									"ID": "reaction_3"
+								},
+								{
+									"Tag": "fall_movie_0",
+									"Response": "love",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Jane.15}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": "mysterium_shadow",
+													"Script": "{{i18n:Movies.Jane.16}}",
+													"Text": "{{i18n:Movies.Jane.17}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Jane.18}}",
+												}
+										},
+									"ID": "reaction_4"
+								},
+								{
+									"Tag": "fall_movie_1",
+									"Response": "like",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Jane.19}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Jane.20}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Jane.21}}",
+												}
+										},
+									"ID": "reaction_5"
+								},
+								{
+									"Tag": "winter_movie_0",
+									"Response": "love",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Jane.22}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Jane.23}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Jane.24}}",
+												}
+										},
+									"ID": "reaction_6"
+								},
+								{
+									"Tag": "winter_movie_1",
+									"Response": "love",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Jane.25}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": "zuzucityexpress_mind_heart",
+													"Script": "{{i18n:Movies.Jane.26}}",
+													"Text": "{{i18n:Movies.Jane.27}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Jane.28}}",
+												}
+										},
+									"ID": "reaction_7"
+								}
+							]
+						},
+					
+					"StevenLD":
+						{
+							"NPCName": "StevenLD",
+							"Reactions":
+							[
+								{
+									"Tag": "seen_love",
+									"Response": "love",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Steven.29}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Steven.30}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Steven.31}}",
+												}
+										},
+									"ID": "reaction_8"
+								},
+								{
+									"Tag": "seen_like",
+									"Response": "like",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Steven.32}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Steven.33}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Steven.34}}",
+												}
+										},
+									"ID": "reaction_9"
+								},
+								{
+									"Tag": "seen_dislike",
+									"Response": "dislike",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Steven.35}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Steven.36}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Steven.37}}",
+												}
+										},
+									"ID": "reaction_10"
+								},
+								{
+									"Tag": "spring_movie_0",
+									"Response": "like",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Steven.01}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": "sprout_leave",
+													"Script": "{{i18n:Movies.Steven.02}}",
+													"Text": "{{i18n:Movies.Steven.03}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Steven.04}}",
+												}
+										},
+									"ID": "reaction_0"
+								},
+								{
+									"Tag": "spring_movie_1",
+									"Response": "like",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Steven.05}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Steven.06}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Steven.07}}",
+												}
+										},
+									"ID": "reaction_1"
+								},
+								{
+									"Tag": "summer_movie_0",
+									"Response": "love",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Steven.08}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": "PK_villain",
+													"Script": "{{i18n:Movies.Steven.09}}",
+													"Text": "{{i18n:Movies.Steven.10}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Steven.11}}",
+												}
+										},
+									"ID": "reaction_2"
+								},
+								{
+									"Tag": "summer_movie_1",
+									"Response": "like",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Steven.12}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Steven.13}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Steven.14}}",
+												}
+										},
+									"ID": "reaction_3"
+								},
+								{
+									"Tag": "fall_movie_0",
+									"Response": "dislike",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Steven.15}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": "mysterium_shadow",
+													"Script": "{{i18n:Movies.Steven.16}}",
+													"Text": "{{i18n:Movies.Steven.17}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Steven.18}}",
+												}
+										},
+									"ID": "reaction_4"
+								},
+								{
+									"Tag": "fall_movie_1",
+									"Response": "dislike",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Steven.19}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Steven.20}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Steven.21}}",
+												}
+										},
+									"ID": "reaction_5"
+								},
+								{
+									"Tag": "winter_movie_0",
+									"Response": "dislike",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Steven.22}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Steven.23}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Steven.24}}",
+												}
+										},
+									"ID": "reaction_6"
+								},
+								{
+									"Tag": "winter_movie_1",
+									"Response": "dislike",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Steven.25}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": "zuzucityexpress_mind_heart",
+													"Script": "{{i18n:Movies.Steven.26}}",
+													"Text": "{{i18n:Movies.Steven.27}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Steven.28}}",
+												}
+										},
+									"ID": "reaction_7"
+								}
+							]
+						},
+						
+					"ElizabethLD":
+						{
+							"NPCName": "ElizabethLD",
+							"Reactions":
+							[
+								{
+									"Tag": "seen_love",
+									"Response": "love",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Elizabeth.29}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Elizabeth.30}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Elizabeth.31}}",
+												}
+										},
+									"ID": "reaction_8"
+								},
+								{
+									"Tag": "seen_like",
+									"Response": "like",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Elizabeth.32}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Elizabeth.33}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Elizabeth.34}}",
+												}
+										},
+									"ID": "reaction_9"
+								},
+								{
+									"Tag": "seen_dislike",
+									"Response": "dislike",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Elizabeth.35}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Elizabeth.36}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Elizabeth.37}}",
+												}
+										},
+									"ID": "reaction_10"
+								},
+								{
+									"Tag": "spring_movie_0",
+									"Response": "love",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Elizabeth.01}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": "sprout_leave",
+													"Script": "{{i18n:Movies.Elizabeth.02}}",
+													"Text": "{{i18n:Movies.Elizabeth.03}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Elizabeth.04}}",
+												}
+										},
+									"ID": "reaction_0"
+								},
+								{
+									"Tag": "spring_movie_1",
+									"Response": "love",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Elizabeth.05}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Elizabeth.06}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Elizabeth.07}}",
+												}
+										},
+									"ID": "reaction_1"
+								},
+								{
+									"Tag": "summer_movie_0",
+									"Response": "like",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Elizabeth.08}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": "PK_villain",
+													"Script": "{{i18n:Movies.Elizabeth.09}}",
+													"Text": "{{i18n:Movies.Elizabeth.10}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Elizabeth.11}}",
+												}
+										},
+									"ID": "reaction_2"
+								},
+								{
+									"Tag": "summer_movie_1",
+									"Response": "like",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Elizabeth.12}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Elizabeth.13}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Elizabeth.14}}",
+												}
+										},
+									"ID": "reaction_3"
+								},
+								{
+									"Tag": "fall_movie_0",
+									"Response": "dislike",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Elizabeth.15}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": "mysterium_shadow",
+													"Script": "{{i18n:Movies.Elizabeth.16}}",
+													"Text": "{{i18n:Movies.Elizabeth.17}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Elizabeth.18}}",
+												}
+										},
+									"ID": "reaction_4"
+								},
+								{
+									"Tag": "fall_movie_1",
+									"Response": "dislike",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Elizabeth.19}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Elizabeth.20}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Elizabeth.21}}",
+												}
+										},
+									"ID": "reaction_5"
+								},
+								{
+									"Tag": "winter_movie_0",
+									"Response": "like",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Elizabeth.22}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Elizabeth.23}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Elizabeth.24}}",
+												}
+										},
+									"ID": "reaction_6"
+								},
+								{
+									"Tag": "winter_movie_1",
+									"Response": "like",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Elizabeth.25}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": "zuzucityexpress_mind_heart",
+													"Script": "{{i18n:Movies.Elizabeth.26}}",
+													"Text": "{{i18n:Movies.Elizabeth.27}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Elizabeth.28}}",
+												}
+										},
+									"ID": "reaction_7"
+								}
+							]
+						},
+
+					"SimonLD":
+						{
+							"NPCName": "SimonLD",
+							"Reactions":
+							[
+								{
+									"Tag": "seen_love",
+									"Response": "love",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Simon.29}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Simon.30}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Simon.31}}",
+												}
+										},
+									"ID": "reaction_8"
+								},
+								{
+									"Tag": "seen_like",
+									"Response": "like",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Simon.32}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Simon.33}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Simon.34}}",
+												}
+										},
+									"ID": "reaction_9"
+								},
+								{
+									"Tag": "seen_dislike",
+									"Response": "dislike",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Simon.35}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Simon.36}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Simon.37}}",
+												}
+										},
+									"ID": "reaction_10"
+								},
+								{
+									"Tag": "spring_movie_0",
+									"Response": "dislike",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Simon.01}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": "sprout_leave",
+													"Script": "{{i18n:Movies.Simon.02}}",
+													"Text": "{{i18n:Movies.Simon.03}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Simon.04}}",
+												}
+										},
+									"ID": "reaction_0"
+								},
+								{
+									"Tag": "spring_movie_1",
+									"Response": "love",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Simon.05}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Simon.06}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Simon.07}}",
+												}
+										},
+									"ID": "reaction_1"
+								},
+								{
+									"Tag": "summer_movie_0",
+									"Response": "love",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Simon.08}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": "PK_villain",
+													"Script": "{{i18n:Movies.Simon.09}}",
+													"Text": "{{i18n:Movies.Simon.10}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Simon.11}}",
+												}
+										},
+									"ID": "reaction_2"
+								},
+								{
+									"Tag": "summer_movie_1",
+									"Response": "like",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Simon.12}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Simon.13}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Simon.14}}",
+												}
+										},
+									"ID": "reaction_3"
+								},
+								{
+									"Tag": "fall_movie_0",
+									"Response": "love",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Simon.15}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": "mysterium_shadow",
+													"Script": "{{i18n:Movies.Simon.16}}",
+													"Text": "{{i18n:Movies.Simon.17}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Simon.18}}",
+												}
+										},
+									"ID": "reaction_4"
+								},
+								{
+									"Tag": "fall_movie_1",
+									"Response": "love",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Simon.19}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Simon.20}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Simon.21}}",
+												}
+										},
+									"ID": "reaction_5"
+								},
+								{
+									"Tag": "winter_movie_0",
+									"Response": "dislike",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Simon.22}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Simon.23}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Simon.24}}",
+												}
+										},
+									"ID": "reaction_6"
+								},
+								{
+									"Tag": "winter_movie_1",
+									"Response": "dislike",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Simon.25}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": "zuzucityexpress_mind_heart",
+													"Script": "{{i18n:Movies.Simon.26}}",
+													"Text": "{{i18n:Movies.Simon.27}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Simon.28}}",
+												}
+										},
+									"ID": "reaction_7"
+								}
+							]
+						},
+
+					"DestinyLD":
+						{
+							"NPCName": "DestinyLD",
+							"Reactions":
+							[
+								{
+									"Tag": "seen_love",
+									"Response": "love",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Destiny.29}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Destiny.30}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Destiny.31}}",
+												}
+										},
+									"ID": "reaction_8"
+								},
+								{
+									"Tag": "seen_like",
+									"Response": "like",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Destiny.32}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Destiny.33}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Destiny.34}}",
+												}
+										},
+									"ID": "reaction_9"
+								},
+								{
+									"Tag": "seen_dislike",
+									"Response": "dislike",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Destiny.35}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Destiny.36}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Destiny.37}}",
+												}
+										},
+									"ID": "reaction_10"
+								},
+								{
+									"Tag": "spring_movie_0",
+									"Response": "love",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Destiny.01}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": "sprout_leave",
+													"Script": "{{i18n:Movies.Destiny.02}}",
+													"Text": "{{i18n:Movies.Destiny.03}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Destiny.04}}",
+												}
+										},
+									"ID": "reaction_0"
+								},
+								{
+									"Tag": "spring_movie_1",
+									"Response": "love",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Destiny.05}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Destiny.06}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Destiny.07}}",
+												}
+										},
+									"ID": "reaction_1"
+								},
+								{
+									"Tag": "summer_movie_0",
+									"Response": "like",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Destiny.08}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": "PK_villain",
+													"Script": "{{i18n:Movies.Destiny.09}}",
+													"Text": "{{i18n:Movies.Destiny.10}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Destiny.11}}",
+												}
+										},
+									"ID": "reaction_2"
+								},
+								{
+									"Tag": "summer_movie_1",
+									"Response": "love",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Destiny.12}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Destiny.13}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Destiny.14}}",
+												}
+										},
+									"ID": "reaction_3"
+								},
+								{
+									"Tag": "fall_movie_0",
+									"Response": "love",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Destiny.15}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": "mysterium_shadow",
+													"Script": "{{i18n:Movies.Destiny.16}}",
+													"Text": "{{i18n:Movies.Destiny.17}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Destiny.18}}",
+												}
+										},
+									"ID": "reaction_4"
+								},
+								{
+									"Tag": "fall_movie_1",
+									"Response": "dislike",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Destiny.19}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Destiny.20}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Destiny.21}}",
+												}
+										},
+									"ID": "reaction_5"
+								},
+								{
+									"Tag": "winter_movie_0",
+									"Response": "like",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Destiny.22}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Destiny.23}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Destiny.24}}",
+												}
+										},
+									"ID": "reaction_6"
+								},
+								{
+									"Tag": "winter_movie_1",
+									"Response": "like",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Destiny.25}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": "zuzucityexpress_mind_heart",
+													"Script": "{{i18n:Movies.Destiny.26}}",
+													"Text": "{{i18n:Movies.Destiny.27}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Destiny.28}}",
+												}
+										},
+									"ID": "reaction_7"
+								}
+							]
+						},
+
+					"MichelleLD":
+						{
+							"NPCName": "MichelleLD",
+							"Reactions":
+							[
+								{
+									"Tag": "seen_love",
+									"Response": "love",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Michelle.29}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Michelle.30}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Michelle.31}}",
+												}
+										},
+									"ID": "reaction_8"
+								},
+								{
+									"Tag": "seen_like",
+									"Response": "like",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Michelle.32}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Michelle.33}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Michelle.34}}",
+												}
+										},
+									"ID": "reaction_9"
+								},
+								{
+									"Tag": "seen_dislike",
+									"Response": "dislike",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Michelle.35}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Michelle.36}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Michelle.37}}",
+												}
+										},
+									"ID": "reaction_10"
+								},
+								{
+									"Tag": "spring_movie_0",
+									"Response": "love",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Michelle.01}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": "sprout_leave",
+													"Script": "{{i18n:Movies.Michelle.02}}",
+													"Text": "{{i18n:Movies.Michelle.03}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Michelle.04}}",
+												}
+										},
+									"ID": "reaction_0"
+								},
+								{
+									"Tag": "spring_movie_1",
+									"Response": "love",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Michelle.05}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Michelle.06}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Michelle.07}}",
+												}
+										},
+									"ID": "reaction_1"
+								},
+								{
+									"Tag": "summer_movie_0",
+									"Response": "like",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Michelle.08}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": "PK_villain",
+													"Script": "{{i18n:Movies.Michelle.09}}",
+													"Text": "{{i18n:Movies.Michelle.10}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Michelle.11}}",
+												}
+										},
+									"ID": "reaction_2"
+								},
+								{
+									"Tag": "summer_movie_1",
+									"Response": "dislike",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Michelle.12}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Michelle.13}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Michelle.14}}",
+												}
+										},
+									"ID": "reaction_3"
+								},
+								{
+									"Tag": "fall_movie_0",
+									"Response": "love",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Michelle.15}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": "mysterium_shadow",
+													"Script": "{{i18n:Movies.Michelle.16}}",
+													"Text": "{{i18n:Movies.Michelle.17}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Michelle.18}}",
+												}
+										},
+									"ID": "reaction_4"
+								},
+								{
+									"Tag": "fall_movie_1",
+									"Response": "love",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Michelle.19}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Michelle.20}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Michelle.21}}",
+												}
+										},
+									"ID": "reaction_5"
+								},
+								{
+									"Tag": "winter_movie_0",
+									"Response": "like",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Michelle.22}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Michelle.23}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Michelle.24}}",
+												}
+										},
+									"ID": "reaction_6"
+								},
+								{
+									"Tag": "winter_movie_1",
+									"Response": "dislike",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Michelle.25}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": "zuzucityexpress_mind_heart",
+													"Script": "{{i18n:Movies.Michelle.26}}",
+													"Text": "{{i18n:Movies.Michelle.27}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Michelle.28}}",
+												}
+										},
+									"ID": "reaction_7"
+								}
+							]
+						}
+				}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/MoviesReactions",
+			"Entries":
+				{
+					"LeonardLD":
+						{
+							"NPCName": "LeonardLD",
+							"Reactions":
+							[
+								{
+									"Tag": "seen_love",
+									"Response": "love",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Leonard.29}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Leonard.30}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Leonard.31}}",
+												}
+										},
+									"ID": "reaction_8"
+								},
+								{
+									"Tag": "seen_like",
+									"Response": "like",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Leonard.32}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Leonard.33}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Leonard.34}}",
+												}
+										},
+									"ID": "reaction_9"
+								},
+								{
+									"Tag": "seen_dislike",
+									"Response": "dislike",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Leonard.35}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Leonard.36}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Leonard.37}}",
+												}
+										},
+									"ID": "reaction_10"
+								},
+								{
+									"Tag": "spring_movie_0",
+									"Response": "dislike",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Leonard.01}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": "sprout_leave",
+													"Script": "{{i18n:Movies.Leonard.02}}",
+													"Text": "{{i18n:Movies.Leonard.03}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Leonard.04}}",
+												}
+										},
+									"ID": "reaction_0"
+								},
+								{
+									"Tag": "spring_movie_1",
+									"Response": "love",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Leonard.05}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Leonard.06}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Leonard.07}}",
+												}
+										},
+									"ID": "reaction_1"
+								},
+								{
+									"Tag": "summer_movie_0",
+									"Response": "love",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Leonard.08}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": "PK_villain",
+													"Script": "{{i18n:Movies.Leonard.09}}",
+													"Text": "{{i18n:Movies.Leonard.10}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Leonard.11}}",
+												}
+										},
+									"ID": "reaction_2"
+								},
+								{
+									"Tag": "summer_movie_1",
+									"Response": "like",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Leonard.12}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Leonard.13}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Leonard.14}}",
+												}
+										},
+									"ID": "reaction_3"
+								},
+								{
+									"Tag": "fall_movie_0",
+									"Response": "dislike",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Leonard.15}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": "mysterium_shadow",
+													"Script": "{{i18n:Movies.Leonard.16}}",
+													"Text": "{{i18n:Movies.Leonard.17}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Leonard.18}}",
+												}
+										},
+									"ID": "reaction_4"
+								},
+								{
+									"Tag": "fall_movie_1",
+									"Response": "dislike",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Leonard.19}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Leonard.20}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Leonard.21}}",
+												}
+										},
+									"ID": "reaction_5"
+								},
+								{
+									"Tag": "winter_movie_0",
+									"Response": "dislike",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Leonard.22}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Leonard.23}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Leonard.24}}",
+												}
+										},
+									"ID": "reaction_6"
+								},
+								{
+									"Tag": "winter_movie_1",
+									"Response": "dislike",
+									"Whitelist": [],
+									"SpecialResponses":
+										{
+											"BeforeMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Leonard.25}}",
+												},
+											"DuringMovie":
+												{
+													"ResponsePoint": "zuzucityexpress_mind_heart",
+													"Script": "{{i18n:Movies.Leonard.26}}",
+													"Text": "{{i18n:Movies.Leonard.27}}",
+												},
+											"AfterMovie":
+												{
+													"ResponsePoint": null,
+													"Script": "",
+													"Text": "{{i18n:Movies.Leonard.28}}",
+												}
+										},
+									"ID": "reaction_7"
+								}
+							]
+						}
+				},
+			"When":
+				{
+					"HasSeenEvent |contains=1608100240": true
+				}
+		}
+	]
+}

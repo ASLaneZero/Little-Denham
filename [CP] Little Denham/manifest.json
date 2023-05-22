@@ -1,0 +1,27 @@
+{
+    "Name": "[CP] Little Denham",
+    "Author": "ASLaneZero",
+    "Version": "0.1.2",
+    "Description": "Adds a new area, and an extended family of NPCs.",
+    "UniqueID": "ASLane.LittleDenham.CP",
+    "MinimumApiVersion": "3.18.2",
+    "UpdateKeys": [ "Nexus:16081" ],
+	"Dependencies": [
+    { "UniqueID": "Lumisteria.TtilesheetsOutdoor" },
+	{ "UniqueID": "Lumisteria.LumiTilesheetsIndoor"	},
+	{ "UniqueID": "DaisyNiko.Tilesheets" },
+	{ "UniqueID": "SuperAardvark.AntiSocial" },
+	{ "UniqueID": "Esca.CustomNPCExclusions" },
+	{ "UniqueID": "FlashShifter.StardewValleyExpandedCP", "IsRequired":false },
+	{ "UniqueID": "MineralTownArchitects.MineralTown", "IsRequired":false },
+	{ "UniqueID": "TheLimeyDragon.Ayeisha", "IsRequired":false },
+	{ "UniqueID": "hootless.BusLocations", "IsRequired":false },
+	{ "UniqueID": "flashshifter.GrandpasFarm", "IsRequired":false },
+	{ "UniqueID": "k80chimaera.CinderCircle", "IsRequired":false },
+	{ "UniqueID": "ch20youk.TSCCP", "IsRequired":false }
+	],
+    "ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "1.29.0"
+	}  
+}

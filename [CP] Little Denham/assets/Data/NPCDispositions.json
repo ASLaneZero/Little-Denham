@@ -1,0 +1,76 @@
+{
+	"Changes":
+	[
+		{
+			"LogName": "LD NPC Dispositions",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Entries":
+				{
+					"DestinyLD": "teen/neutral/shy/positive/female/not-datable/null/town/fall 23/StevenLD '{{i18n:Relationship.DestinySteven}}' SimonLD '{{i18n:Relationship.DestinySimon}}' ElizabethLD '{{i18n:Relationship.DestinyElizabeth}}' AnxiousLD '{{i18n:Relationship.DestinyAnxious}}' JaneLD '{{i18n:Relationship.DestinyJane}}'/Custom_LDHouse 27 5/{{i18n:Name.DestinyLD}}",
+					"ElizabethLD": "adult/neutral/outgoing/positive/female/not-datable/LeonardLD/town/winter 3/StevenLD '{{i18n:Relationship.ElizabethSteven}}' SimonLD '{{i18n:Relationship.ElizabethSimon}}' DestinyLD '{{i18n:Relationship.ElizabethDestiny}}' JaneLD '{{i18n:Relationship.ElizabethJane}}' LeonardLD '{{i18n:Relationship.ElizabethLeonard}}'/Custom_LDHouse 22 5/{{i18n:Name.ElizabethLD}}",
+					"JaneLD": "adult/neutral/outgoing/neutral/female/not-datable/null/town/winter 2/StevenLD '{{i18n:Relationship.JaneSteven}}' SimonLD '{{i18n:Relationship.JaneSimon}}' ElizabethLD '{{i18n:Relationship.JaneElizabeth}}' DestinyLD '{{i18n:Relationship.JaneDestiny}}'/Custom_LDHouse 8 4/{{i18n:Name.JaneLD}}",
+					"JosephLD": "adult/neutral/outgoing/positive/male/not-datable/null/town///Custom_LDJoja 1 6/{{i18n:Name.JosephLD}}",
+					"MichelleLD": "adult/neutral/outgoing/neutral/male/not-datable/StevenLD/town/summer 12/StevenLD '{{i18n:Relationship.MichelleSteven}}'/Custom_LDFlat2F 1 4/{{i18n:Name.MichelleLD}}",
+					"SimonLD": "adult/rude/shy/negative/male/not-datable/null/town/spring 6/StevenLD '{{i18n:Relationship.SimonSteven}}' ElizabethLD '{{i18n:Relationship.SimonElizabeth}}' DestinyLD '{{i18n:Relationship.SimonDestiny}}' JaneLD '{{i18n:Relationship.SimonJane}}'/Custom_LDHouse 14 6/{{i18n:Name.SimonLD}}",
+					"StevenLD": "adult/neutral/neutral/neutral/male/not-datable/MichelleLD/town/summer 18/ElizabethLD '{{i18n:Relationship.StevenElizabeth}}' DestinyLD '{{i18n:Relationship.StevenDestiny}}' SimonLD '{{i18n:Relationship.StevenSimon}}' JaneLD '{{i18n:Relationship.StevenJane}}' MichelleLD '{{i18n:Relationship.StevenMichelle}}'/Custom_LDFlat2F 3 4/{{i18n:Name.StevenLD}}"					
+				}
+		},
+		
+		{
+			"LogName": "LD Anxious Antisocial Disposition",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Entries":
+				{
+					"AnxiousLD": "adult/polite/shy/positive/undefined/not-datable/null/other//DestinyLD '{{i18n:Relationship.AnxiousDestiny}}'/Custom_LDAnxious 13 3/{{i18n:Name.AnxiousLD}}"
+				},
+						"When": 
+				{
+					"HasSeenEvent |contains=1608100600, 1608100601": false
+				}
+		},
+		
+		{
+			"LogName": "LD Anxious Disposition",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Entries":
+				{
+					"AnxiousLD": "adult/polite/shy/positive/undefined/not-datable/null/town/fall 10/DestinyLD '{{i18n:Relationship.AnxiousDestiny}}'/Custom_LDAnxious 13 3/{{i18n:Name.AnxiousLD}}"
+				},
+						"When": 
+				{
+					"HasSeenEvent |contains=1608100600, 1608100601": true
+				}
+		},
+		
+		{
+			"LogName": "LD Leonard Antisocial Disposition",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Entries":
+				{
+					"LeonardLD": "adult/rude/shy/negative/male/not-datable/ElizabethLD/other//ElizabethLD '{{i18n:Relationship.LeonardElizabeth}}'/Custom_LDCabin 13 5/{{i18n:Name.LeonardLD}}"
+				},
+						"When": 
+				{
+					"HasSeenEvent |contains=1608100240": false
+				}
+		},
+		
+		{
+			"LogName": "LD Leonard Disposition",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Entries":
+				{
+					"LeonardLD": "adult/rude/shy/negative/male/not-datable/ElizabethLD/town/fall 5/ElizabethLD '{{i18n:Relationship.LeonardElizabeth}}'/Custom_LDCabin 12 5/{{i18n:Name.LeonardLD}}",
+				},
+						"When": 
+				{
+					"HasSeenEvent |contains=1608100240": true
+				}
+		},		
+	]
+}

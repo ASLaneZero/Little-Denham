@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="left-down" width="20" height="21" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="58">
+ <properties>
+  <property name="DayTiles" value="Front 2 2 2812 Front 8 1 2812 Front 13 1 2812 Front 2 8 2812 Front 8 7 2812 Front 13 7 2812 Front 8 13 2812 Front 13 13 2812"/>
+  <property name="Light" value="2 2 4 8 1 4 13 1 4 2 8 4 8 7 4 13 7 4 8 13 4 13 13 4"/>
+  <property name="NightTiles" value="Front 2 2 2813 Front 8 1 2813 Front 13 1 2813 Front 2 8 2813 Front 8 7 2813 Front 13 7 2813 Front 8 13 2813 Front 13 13 2813"/>
+  <property name="Warp" value="10 20 Custom_LDExterior 12 15 11 20 Custom_LDExterior 13 15"/>
+  <property name="WindowLight" value="10 19 6 11 19 6"/>
+ </properties>
+ <tileset firstgid="1" name="Interior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+  <tile id="546">
+   <animation>
+    <frame tileid="546" duration="250"/>
+    <frame tileid="547" duration="250"/>
+    <frame tileid="548" duration="250"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="2177" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths.png" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="2213" name="LumiInterior" tilewidth="16" tileheight="16" tilecount="3050" columns="25">
+  <image source="lumi_towninterior.png" width="400" height="1952"/>
+ </tileset>
+ <tileset firstgid="5263" name="Furniture" tilewidth="16" tileheight="16" tilecount="2976" columns="32">
+  <image source="ld_furniture.png" width="512" height="1488"/>
+ </tileset>
+ <tileset firstgid="8239" name="Outdoors" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source="spring_outdoorsTileSheet.png" width="400" height="1264"/>
+ </tileset>
+ <tileset firstgid="10214" name="Town" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
+  <image source="spring_town.png" width="512" height="1152"/>
+ </tileset>
+ <layer id="5" name="Back" width="20" height="21">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,3772,3773,3773,3773,3773,3773,3773,3773,3773,3773,3773,3773,3773,3773,3773,3774,0,
+0,3773,1561,3797,3798,3798,3798,3798,3798,3798,3798,3798,3798,1437,3798,3798,3798,3798,3799,0,
+0,3798,1593,3822,0,107,0,0,107,0,0,107,0,107,107,107,0,0,3824,0,
+0,0,0,70,1724,1626,70,70,70,1659,70,1593,70,70,1561,70,70,70,70,0,
+0,70,70,70,1593,3221227131,70,70,1594,1723,70,2146,70,70,70,70,1562,70,70,0,
+0,0,0,70,70,70,70,70,70,70,70,70,70,70,70,70,1594,70,70,0,
+0,0,0,3772,3773,3773,3773,3773,3773,3773,3773,3773,3773,3773,3773,3773,1044,1610624139,3774,0,
+0,3773,3773,3797,3798,3798,3798,3798,3798,3798,3798,3798,3798,3798,3798,3798,1044,2684365961,3799,0,
+0,3798,3798,3822,0,107,0,0,107,0,0,107,0,107,107,107,1076,0,3824,0,
+0,0,0,70,70,70,1594,70,70,2115,1659,1561,70,1562,70,70,70,70,1660,0,
+0,70,70,70,70,70,70,70,70,70,1073743484,70,70,70,70,70,70,1660,1724,0,
+0,0,0,70,70,1561,70,70,70,70,70,70,70,70,70,70,70,1724,70,0,
+0,0,0,3772,3773,1044,1690,3773,0,3773,3773,3773,3773,3773,3773,3773,3773,3773,3774,0,
+0,0,0,3797,3798,1044,1722,3798,1770,3798,3798,3798,3798,3798,3798,3798,3798,3798,3799,0,
+0,0,0,3822,0,1076,0,0,0,0,0,0,0,107,107,107,0,0,3824,0,
+0,0,0,1660,1659,1561,3221226013,3221226013,2114,3221227195,1561,70,70,70,70,70,70,1659,1659,0,
+0,0,0,1692,1855,1593,541,541,2113,1723,70,1594,70,70,1659,1660,3221227196,1626,1691,0,
+0,0,0,1724,1723,70,638,70,2145,70,70,70,3221227033,3221227196,1658,1658,1658,1658,1723,0,
+0,0,0,0,0,0,0,0,0,0,70,70,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="Back"/>
+ <layer id="4" name="Buildings" width="20" height="21">
+  <data encoding="csv">
+1,1,1,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,1,
+10,3,8,1610612875,3773,3773,3773,3773,3773,3773,3773,3773,3773,1405,1407,3773,3773,3773,44,37,
+65,0,56,74,75,1390,75,75,1390,75,75,1390,75,75,12107,75,75,75,76,69,
+65,75,88,106,107,1422,107,107,1422,107,107,1422,107,7938,12139,7939,107,107,108,69,
+65,107,107,138,0,0,0,0,0,0,0,0,0,0,0,0,0,0,140,69,
+97,9197,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,69,
+1,1,161,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,168,
+10,3,8,1610612875,3773,3773,3773,3773,3773,3773,3773,3773,3773,3773,3773,56,0,55,44,37,
+65,0,56,74,75,1390,75,75,1390,75,75,1390,75,75,12107,88,0,87,76,69,
+65,75,88,106,107,1422,107,107,1422,107,107,1422,107,7938,12139,7939,0,107,108,69,
+65,107,107,138,0,0,0,0,0,0,0,0,0,0,0,0,0,0,140,69,
+97,9197,9738,9737,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,69,
+1,1,161,0,9788,0,0,0,0,0,0,0,0,0,0,0,0,0,0,168,
+1,1,33,1610612875,56,0,1690,1408,1738,3773,3773,3773,3773,3773,3773,3773,3773,3773,44,37,
+1,1,65,1610612875,88,0,1722,1440,75,75,75,75,75,75,12107,75,75,75,76,69,
+1,1,65,106,107,0,1754,1472,107,107,107,107,107,7938,12139,7939,107,107,108,69,
+1,1,65,138,0,0,1797,1798,0,0,0,0,0,0,0,0,1842,1843,140,69,
+1,1,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,69,
+1,1,161,0,0,0,0,0,0,0,0,0,0,0,0,0,1818,1819,1820,168,
+1,1,1,1,1,1,1,1,1,97,0,0,131,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <objectgroup id="7" name="Buildings">
+  <object id="6" name="TileData" x="64" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LDLobby.01&quot;"/>
+   </properties>
+  </object>
+  <object id="7" name="TileData" x="112" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LDLobby.02&quot;"/>
+   </properties>
+  </object>
+  <object id="8" name="TileData" x="160" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LDLobby.03&quot;"/>
+   </properties>
+  </object>
+  <object id="9" name="TileData" x="160" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LDLobby.04&quot;"/>
+   </properties>
+  </object>
+  <object id="10" name="TileData" x="112" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LDLobby.05&quot;"/>
+   </properties>
+  </object>
+  <object id="11" name="TileData" x="64" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LDLobby.06&quot;"/>
+   </properties>
+  </object>
+  <object id="12" name="TileData" x="224" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LDLobby.07&quot;"/>
+   </properties>
+  </object>
+  <object id="13" name="TileData" x="224" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LDLobby.07&quot;"/>
+   </properties>
+  </object>
+  <object id="14" name="TileData" x="224" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LDLobby.07&quot;"/>
+   </properties>
+  </object>
+  <object id="15" name="TileData" x="48" y="176" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LDLobby.11&quot;"/>
+   </properties>
+  </object>
+  <object id="16" name="TileData" x="64" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LDLobby.11&quot;"/>
+   </properties>
+  </object>
+  <object id="17" name="TileData" x="96" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LDLobby.12&quot;"/>
+   </properties>
+  </object>
+  <object id="18" name="TileData" x="112" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LDLobby.12&quot;"/>
+   </properties>
+  </object>
+  <object id="19" name="TileData" x="144" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LDLobby.09&quot;"/>
+   </properties>
+  </object>
+  <object id="20" name="TileData" x="160" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LDLobby.09&quot;"/>
+   </properties>
+  </object>
+  <object id="21" name="TileData" x="176" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LDLobby.10&quot;"/>
+   </properties>
+  </object>
+  <object id="22" name="TileData" x="192" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LDLobby.10&quot;"/>
+   </properties>
+  </object>
+  <object id="23" name="TileData" x="256" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LDLobby.13&quot;"/>
+   </properties>
+  </object>
+  <object id="24" name="TileData" x="272" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LDLobby.13&quot;"/>
+   </properties>
+  </object>
+  <object id="25" name="TileData" x="16" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LDLobby.08&quot;"/>
+   </properties>
+  </object>
+  <object id="26" name="TileData" x="16" y="176" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LDLobby.08&quot;"/>
+   </properties>
+  </object>
+  <object id="33" name="TileData" x="128" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LDLobby.15&quot;"/>
+   </properties>
+  </object>
+  <object id="34" name="TileData" x="80" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="LockedDoorWarp 8 13 Custom_LDFlat2F 900 2400"/>
+   </properties>
+  </object>
+  <object id="35" name="TileData" x="176" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Warp 6 13 Custom_LDFlat2D"/>
+   </properties>
+  </object>
+  <object id="37" name="TileData" x="128" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LDLobby.15&quot;"/>
+   </properties>
+  </object>
+  <object id="38" name="TileData" x="176" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LDLobby.15&quot;"/>
+   </properties>
+  </object>
+  <object id="42" name="TileData" x="80" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="LDFlat"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Paths" width="20" height="21">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="8" name="Paths"/>
+ <layer id="2" name="Front" width="20" height="21">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,42,0,0,0,0,8075,0,0,0,0,8075,0,0,0,0,0,0,
+0,0,8075,1610612875,802,0,0,802,0,0,802,0,0,1073749762,1207,1073749763,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,9172,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,197,163,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,193,166,166,166,166,166,166,166,166,166,166,166,198,0,196,2147483841,0,
+0,0,0,42,0,0,0,0,8075,0,0,0,0,8075,0,0,0,0,0,0,
+0,5077,8075,1610612875,802,0,0,802,0,0,802,0,0,1073749762,1207,1073749763,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,9172,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,197,163,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,193,198,0,196,166,166,166,166,166,166,166,166,166,166,166,2147483841,0,
+0,0,0,42,0,0,0,0,8075,4763,4764,0,0,8075,0,0,1746,1747,0,0,
+0,0,0,0,0,0,0,0,0,4813,4814,721,722,1073749762,1207,1073749763,1778,1779,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1810,1811,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1786,1787,1788,0,
+0,0,0,162,197,197,197,197,197,163,0,0,164,197,197,197,197,197,167,0,
+0,0,0,0,0,0,0,0,0,0,197,197,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="9" name="Front"/>
+ <layer id="1" name="AlwaysFront" width="20" height="21">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="10" name="AlwaysFront"/>
+</map>

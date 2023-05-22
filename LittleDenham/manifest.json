@@ -1,0 +1,16 @@
+{
+  "Name": "Little Denham SMAPI Component",
+  "Author": "ASLane Zero",
+  "Version": "0.1.2",
+  "Description": "SMAPI code elements for Little Denham.",
+  "UniqueID": "ASLane.LittleDenham.SMAPI",
+  "EntryDll": "LittleDenham.dll",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [ "Nexus:16081" ],
+  "Dependencies": [
+    {
+      "UniqueID": "FlashShifter.SVECode",
+      "IsRequired": false
+    }
+  ]
+}
